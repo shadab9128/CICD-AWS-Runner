@@ -22,6 +22,6 @@ jobs:
               run: npm test
               
             - name: "Deploy to AWS"
-              run: pm2 start src/index.js
+              run: pm2 restart src/index.js
 
             
